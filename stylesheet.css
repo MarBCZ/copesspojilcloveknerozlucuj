@@ -6,14 +6,94 @@
   src: url('fonts/BourtonLineBold/BourtonLineBold.woff2') format('woff2'), url('Webfonts/BourtonLineBold/BourtonLineBold.woff') format('woff');
 }
 
+@font-face {
+  font-family: "BourtonLine";
+  src: url('fonts/BourtonLine/BourtonLine.woff2') format('woff2'), url('Webfonts/BourtonLine/BourtonLine.woff') format('woff');
+}
+
 /* Layout */
 
 body {
-  padding: 12px;
+  position: fixed;
+  padding: 0 0 3em 0;
+}
+
+header {
+  padding: 1em;
+  width: 100%;
+  background: #fff;
+  vertical-align: center;
+}
+
+h1 {
+  clear: both;
+  margin: 0 1em 1em;
+}
+
+h2 {
+  margin: 2em 0 0 2em;
+}
+
+h3 {
+  margin: 1.5em 1em 1em;
+}
+
+h4 {
+  margin: 1em;
+}
+
+p {
+  margin: .5em 1em 0 1em;
+}
+
+img.big {
+  max-width: 480px;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  float: left;
 }
 
 /* Typography */
 
 h1 {
+  font-size: 2.5em;
   font-family: "BourtonLineBold";
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "BourtonLineBold";
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: "BourtonLineBold";
+}
+
+h4 {
+  font-size: 1em;
+  font-family: "Vollkorn", serif;
+}
+
+p {
+  //font-family: 'Zillo Slab', serif;
+  font-family: 'Vollkorn', serif;
+}
+
+ul {
+  font-family: 'Vollkorn', serif;
+}
+
+li {
+  margin: 0.5em 1em;
+}
+
+nav > ul {
+  font-family: "BourtonLineBold";
+  font-size: 1.5em;
+}
+
+nav > ul > li {
+  list-style: none;
 }
